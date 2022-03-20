@@ -46,11 +46,9 @@ class SettingsViewController: UIViewController {
         case 1:
             greenLabel.text = roundingValues(sender.value)
             greenTextField.text = roundingValues(sender.value)
-        case 2:
+        default:
             blueLabel.text = roundingValues(sender.value)
             blueTextField.text = roundingValues(sender.value)
-        default:
-            break
         }
         setDefaultSetting()
     }
