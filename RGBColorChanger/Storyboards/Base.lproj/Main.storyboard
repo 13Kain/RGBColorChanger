@@ -107,6 +107,9 @@
                                             <slider opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="AtQ-U3-hMl">
                                                 <rect key="frame" x="116" y="0.0" width="110" height="35"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
+                                                <connections>
+                                                    <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="8U9-K5-OOq"/>
+                                                </connections>
                                             </slider>
                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ki4-0l-8t8">
                                                 <rect key="frame" x="238" y="0.0" width="50" height="34"/>
@@ -141,6 +144,9 @@
                                             </label>
                                             <slider opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Qg7-0y-NGA">
                                                 <rect key="frame" x="116" y="0.0" width="110" height="35"/>
+                                                <connections>
+                                                    <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="NFq-Ed-b0e"/>
+                                                </connections>
                                             </slider>
                                             <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.00" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="udQ-OK-sd2">
                                                 <rect key="frame" x="238" y="0.0" width="50" height="34"/>

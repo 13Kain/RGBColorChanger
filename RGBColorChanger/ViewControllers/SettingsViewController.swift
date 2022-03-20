@@ -53,7 +53,7 @@ class SettingsViewController: UIViewController {
             break
         }
         setDefaultSetting()
-        }
+    }
     
     
     @IBAction func doneButtonAction(_ sender: UIButton) {
