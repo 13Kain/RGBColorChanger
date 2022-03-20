@@ -7,10 +7,11 @@
 
 import UIKit
 
+protocol SettingsViewControllerDelegate {
+    func saveSettings(_ color: UIColor)
+}
+
 class SettingsViewController: UIViewController {
-    protocol SettingsViewControllerDelegate {
-        func saveSettings(_ color: UIColor)
-    }
     
     @IBOutlet var colorView: UIView!
     
